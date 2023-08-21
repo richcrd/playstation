@@ -137,10 +137,12 @@ nav ul li a:hover {
 
 .col-1 #white {
     background-color: #fff;
+    border: 1px solid black;
 }
 
 .col-1 #black {
     background-color: #000;
+    border: 1px solid black;
 }
 
 
