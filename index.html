@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./logo.png" class="logo" alt="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#">Game Controllers</a></li>
+                    <li><a href="#">VR accesories</a></li>
+                    <li><a href="#">Consoles</a></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+            </nav>
+            <i class='bx bx-menu' id="menu-icon" onclick="togglemenu()"></i>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS5 <br>Dualsense</h2>
+                <h3>Sony Dualsense Wireless Controller for PlayStation 5</h3>
+                <p>(Compatible)</p>
+                <span class="price">$69.95</span>
+                <button class="buy-btn" type="button">Buy Now <i class='bx bx-right-arrow-alt icon' ></i></button>
+                <h5>*Choose your favorite color</h5>
+                <button class="colors" id="white" data-image="./white-controller.png"></button>
+                <button class="colors" id="black" data-image="./black-controller.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="./white-controller.png" class="controller" alt="white-controller">
+                <img src="./black-controller.png" class="controller" id="black-controller" alt="black-controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <i class='bx bx-message-square-add add' ></i>
+                    <p><small>Add to Cart</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-instagram-alt' ></i>
+            <i class='bx bxl-tiktok' ></i>
+            <i class='bx bxl-twitter' ></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
