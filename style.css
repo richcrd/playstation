@@ -275,4 +275,14 @@ nav ul li a:hover {
     #black-controller {
         display: none;
     }
+
+    .col-1 #white {
+        background-color: #fff;
+        border: 3px solid black;
+    }
+    
+    .col-1 #black {
+        background-color: #000;
+        border: 3px solid black;
+    }
 }
